@@ -26,3 +26,20 @@ header{
 i{
     color: red;
 }
+
+.div1 {
+    background-color: blueviolet;
+    height: 100px;
+    width: 100px;
+}
+
+.div2{
+    background-color:brown;
+    height: 100px;
+    width: 200px;
+}
+.lucas{
+    width: 200px;
+    text-align: justify;
+    right: 50px;
+}
