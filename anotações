@@ -4,3 +4,5 @@ a tag strong e a tag em tem peso semântico, address também tem peso semântico
 ctrl k + ctrl s abre a lista de comandos de atalho
 dt*3>dd*1 = colocar 3 dt e em cada dt colocar 1 dd
 usar o simbolo * para multiplicar a estrutura e o simbolo > pra por mais estruturas dentro dessas estruturas
+
+mesclar as colunas na descrição e na imagem
