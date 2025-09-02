@@ -4,43 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pagina2</title>
+    <title>Compre seu dragão</title>
 </head>
 <body>
-    <h1>Raças de Dragões</h1>
-    <!-- <img src="../img/bode.jpg" alt="é um bode"> -->
-    <link rel="stylesheet" href="../css/estilo.css">
+    <style>
+        table, tr, td,th{
+            border:1px solid black; 
+            border-collapse: collapse;
+            
+        }
 
-    <table border="1px" align="100px"
-    cellpadding=30px
-    >
-    
-        <th rolspan="2">Dragão</th>
-        <th>Imagem</th>
-        <th>Descrição</th>
-      
-        <tr>  
-        <td>
-            <tr>Nadder Mortal</tr>
-            <tr>Classe Rastreador</tr>
-        </td>
-            <td cowspan="2"><img src="C:\Users\Aluno\Documents\Arth\web\desenvolvimento-web\img\nadder.png" alt="imagem de um nadder"></td> 
-            <td cowspan="2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quo commodi aliquam molestiae aspernatur dolor quia ab, officia qui in pariatur assumenda laudantium corrupti doloribus laborum itaque, quos repudiandae unde.</td>
-        </tr>
+    </style>
+
+    <h1>Raças de Dragões</h1>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <caption>TABELA DE PREÇOS</caption>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Dragão / Classe</th>
+                <th colspan="2">Imagem</th>
+                <th colspan="2">Descrição</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>  
+                <td >Nadder Mortal</td>
+                <td>Classe Rastreador</td>
+                <td colspan="2"><img src="C:\Users\Aluno\Desktop\desenvolvimento-web\img\nadder.png" alt="imagem de um nadder"></td> 
+                <td colspan="2"> O Nadder Mortal não é o maior ou o mais rápido dragão, mas possui o fogo mais quente no mundo dragão. A explosão de um Nadder pode derreter aço, ou transformar um homem a cinzas em minutos. Mas os perigos da Nadder não param por aí. A cauda do Nadder pode chicotear, liberando uma rajada de espinhos gigantes venenosos que podem penetrar árvores,pessoas e rochas sólidas"</td>
+                <td>500 gold</td>
+            </tr>
+            
+            <tr>
+                <td >Fúria da Noite</td>
+                <td>Classe Mistério</td>
+                <td colspan="2"><img src="C:\Users\Aluno\Desktop\desenvolvimento-web\img\banguela.png" alt="imagem do furia da noite"></td>
+                <td colspan="2">O Fúria da Noite já foi considerado uma das espécies de dragões mais misteriosas e temíveis. Na verdade, até Soluço se tornar amigo de Banguela, ninguém sabia a aparência de um Fúria da Noite, pois eles preferiam atacar à noite, quando suas escamas negras permitiam que se misturassem ao céu noturno, tornando-os praticamente invisíveis.
+                    Fúrias da Noite são classificadas como membros da Classe Ataque. Eles têm a habilidade de "mergulhar em bomba", o que significa que podem mergulhar de grandes alturas, ganhando velocidade à medida que descem, e então disparar uma "explosão de plasma" em seu alvo.
+                    Por muito tempo, a única informação que os vikings obtiveram sobre este raro dragão foi o som sibilante de sua velocidade cortando o céu noturno, seguido por uma luz roxa brilhante e, finalmente, uma explosão massiva.
+                    Fisicamente, eles são de constituição mediana, com escamas negras cobrindo o corpo. Fúrias da Noite também possuem dentes retráteis (daí o nome Banguela). Em vez de atirar como a maioria dos dragões, Fúrias da Noite são capazes de disparar "explosões de plasma" de suas bocas. Eles também são extremamente rápidos e usam sua velocidade e coloração para se camuflar no céu noturno.
+                    Embora possam inicialmente parecer criaturas cruéis e perigosas, a amizade de Soluço com Banguela aumentou nossa compreensão da verdadeira natureza dos Fúrias da Noite. Eles são extremamente inteligentes, leais e ferozmente protetores daqueles com quem se importam.</td>
+                <td>100K gold</td>
+            </tr>
         
-        <tr>
-            <td>Fúria da Noite</td>
-            <td>Classe Mistério</td>
-            <td cowspan="2"><img src="C:\Users\Aluno\Documents\Arth\web\desenvolvimento-web\img\banguela.png" alt="imagem do furia da noite"></td>
-            <td cowspan="2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod corrupti magni facere explicabo esse laborum, rem itaque delectus magnam, veniam quaerat ex. Expedita, totam molestiae? Placeat obcaecati odit accusantium ipsa.</td>
-        </tr>
-       
-        <tr>
-            <td>Gronkel</td>
-            <t>Classe Rocha</t>
-            <td cowspan="2"><img src="C:\Users\Aluno\Documents\Arth\web\desenvolvimento-web\img\gronkel.png" alt="imagem do gronkel"></td>
-            <td cowspan="2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam rerum dolores assumenda expedita mollitia voluptate, velit repudiandae excepturi quas nisi unde, sit nihil iusto nemo id ullam quod natus aliquid!</td>
-        </tr>
+            <tr>
+                <td >Gronkel</td>
+                <td>Classe Rocha</t>
+                <td colspan="2"><img src="C:\Users\Aluno\Desktop\desenvolvimento-web\img\gronkel.png" alt="imagem do gronkel"></td>
+                <td colspan="2">Gronckels atacam do ar, onde sua principal arma é mais eficaz. Gronckels mastigam pedras, derretendo-as em seu interior e cuspindo-as como bolas de fogo e lava, ele é muito legal, mesmo sua característica mais ruim que é sua velocidade, consegue fazer mais ou menos 70km por hora dependendo das pedras que ele come pode ganhar uma nova habilidade, pode produzir vários tipos de ferro e até vidro porém pedras normais podem produzir apenas lava de gronckel um tipo de lava que pode ser azul,verde,vermelha,amarela ou rosa, um tipo de rocha se ingerida pelo gronckel produz uma explosão afetando também o dragão, sua defesa mais engraçada é que quando esta voando prestes a ser comido ele solta fogo por trás em forma de pum que atrasa o outro dragão para que ele possa escapar .</td>
+                <td>1000 gold</td>
+            </tr> 
+
+        </tbody>
+
+        <tfoot>
+            <td colspan="6">Total</td>
+            <td>101500 gold</td>
+        </tfoot>
+
     </table>
 
     

@@ -6,3 +6,5 @@ dt*3>dd*1 = colocar 3 dt e em cada dt colocar 1 dd
 usar o simbolo * para multiplicar a estrutura e o simbolo > pra por mais estruturas dentro dessas estruturas
 
 mesclar as colunas na descrição e na imagem
+mesclar a imagem                                                   ^
+colspan pra mesclar as colunas --> e rowspan pra mesclar as linhas |(colspan:"numero"|rowspan:"numero" <dentro>)
