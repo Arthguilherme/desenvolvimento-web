@@ -1,0 +1,100 @@
+1. Vamos criar a estrutura da página index.html
+a) Crie uma página HTML com o Doctype da versão 5 e salve no projeto
+“Livraria” (Este arquivo pode ser o index.html); ok
+b) Adicione a Tag head definindo um título como “Projeto Livraria”; ok
+c) Abra a tag body para iniciar o conteúdo da página. ok
+
+2. Em seguida, defina o idioma da página para "pt-BR" e a direção de
+leitura para "ltr"; Optativo ok
+
+3. Crie uma div com ID “topo”; ok
+
+4. Crie um heading de nível 1 com o texto “Livraria John & Paul”, dentro
+da div “topo” na cor vermelha e alinhado ao centro: ok
+
+5. Em seguida crie abaixo um heading de nível 2 com o texto “Livros
+novos e usados com os melhores preços para você” alinhado ao
+centro e feche a div "topo"; ok
+
+6. Crie uma lista não ordenada dentro de uma outra div com ID “menu”,
+com os seguintes itens: “Inicio”, “Livros”, “Promoções”,“John & Paul”,
+“Contate-nos”;ok
+
+7. Cada item da lista não ordenada, deve ter um link cego. Não esqueça
+de fechar a div "menu";ok
+
+8. Crie uma div CLASS “destaques” e dentro dela um heading de nível 2,
+com o texto “Destaques” na cor azul;ok
+
+9. Abaixo H2 dentro de “destaques”, crie uma lista não ordenada com 10
+itens, e dentro de cada item coloque um link cego, uma imagem de 150 de
+largura por 230 de altura que pode ser capas de livros e com um texto em
+negrito dos títulos de livros. (Seja criativo!);ok
+Ps: Não esqueça de salvar suas imagens em 'images'.
+
+10. Crie uma div ID “rodape” e dentro dela coloque a mesma lista com
+links cegos criados anteriormente na DIV “menu”. Depois crie um
+parágrafo com o texto “2014. Livraria John & Paul – Todos os direitos
+reservados”.
+
+Criando página sobre a Livraria John e Paul
+
+Agora seguindo a mesma estrutura criada na página anterior, crie uma
+outra página chamada “sobre.html” e copie o conteúdo da página
+index.html removendo apenas a CLASSE “destaque” e colocando a
+classe sobre no lugar.ok
+
+1. Crie uma CLASSE “sobre” onde estava localizada a classe "destaque".
+Seu arquivo sobre.html deverá ter o mesmo conteúdo da página index.html
+apenas removendo a classe destaque e colocando a classe sobre no
+lugar;ok
+
+2. Dentro da classe "sobre" crie um heading de nível 1 com o texto “Sobre
+a John e Paul”;ok
+
+3. Crie 2 parágrafos com um texto gerado no site lipsum.com;ok
+
+4. Crie um heading de nível 3 com o texto “Nossos valores” na cor
+vermelha;ok
+
+5. Crie uma lista ordenada de 4 itens com um texto qualquer;ok
+
+6. Crie um heading de nível 3 com o texto “Valores” na cor vermelha;ok
+
+7. Crie um parágrafo com um texto gerado no site lipsum.com;ok
+
+8. Crie um heading de nível 3 com o texto “Missão” na cor vermelha;ok
+
+9. Crie 2 parágrafos com um texto gerado no site lipsum.com;
+Não esqueça de fechar a classe ao final do item 9.ok
+
+Criando lista de produtos
+
+No projeto “Livraria”, crie um arquivo(nova página) chamado produtos.html:
+
+1. Crie uma tabela com uma tag “thead” contendo uma linha e 4 colunas
+(#id, título, autor, preço); ok
+
+2. Crie uma tag “tbody” contendo 10 linhas com as informações sobre os
+livros, e seguindo o padrão de 4 colunas (Seja criativo com o conteúdo); ok
+
+3. Crie uma tag “tfoot” com uma única coluna com o texto “Esses são
+nossos produtos”. ok
+
+Criando nosso formulário
+No projeto “Livraria”, crie um arquivo chamado contato.html: ok
+
+1. Crie um formulário utilizando a tag “legend” com o texto “Contate-nos”; ok
+
+2. Crie os campos “Nome”, “Email”, “Telefone”, “Assunto”, “Mensagem”; ok 
+
+3. Em Assunto, crie um select com as opções “Trocas”, “Atendimento”, 
+“Comercial”, “Outros” e por padrão deixe “Selecione --”; ok
+
+4. Crie um checkbox com o texto “Desejo receber informações sobre a
+Livraria John e Paul”; ok
+
+5. Crie um botão para enviar o formulário e outro para resetar as
+informações; ok
+
+6. Use os placeholders de maneira criativa em cada campo; ok
