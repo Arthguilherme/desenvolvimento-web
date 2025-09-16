@@ -1,0 +1,40 @@
+body{
+    background-color: cyan;
+    background-image: url('../img/arvore2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color:chartreuse;
+}
+a:visited{
+    color: aquamarine;
+}
+
+input:focus{
+    background-color: coral;
+}
+.teste:hover {
+    background-color: crimson;
+
+}
+.p1::first-letter{
+    color:deeppink;
+}
+
+.p2::first-line{
+    color:green;
+}
+
+.texto1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: cadetblue;
+}
+button:hover{
+    background-color: fuchsia;
+}
