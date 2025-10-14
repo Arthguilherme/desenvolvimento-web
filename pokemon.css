@@ -1,13 +1,39 @@
 h1{
     color: red;
+    text-align: center;
+}
+p{
+    text-align: center;
 }
 
 .container{
      display: flex;
+     text-align: center;
+     align-self: center;
      flex-direction: row;
+     justify-content: center;
+     gap: 10px;
+}
 
+.item{
+    background-color: whitesmoke;
+    border-radius: 15%;
+    border:3px solid blue;
+    width: 100px;
+    height: 100px;
 }
 
 .imagem{
-    width: 150px;
+    margin-top: 10px;
+    width: 45px;
+    height: 45px;
+}
+.texto{
+    align-self: center;
+}
+
+.tamanho-less:hover{
+    transform: scale(0.8);
+    transition: ease-in 0.3s;
+    cursor: pointer;
 }
